@@ -1,0 +1,28 @@
+%list-style {
+  color: $red-color;
+  font-weight: bold;
+  font-size: $global-font-size;
+}
+
+.margin-bottom-paragraph {
+  margin-bottom: 34px;
+}
+
+.margin-bottom-title {
+  margin-bottom: 14px;
+}
+
+.margin-bottom-section {
+  margin-bottom: 93px;
+}
+
+.custom-list {
+  & li::before {
+  @extend %list-style;
+  }
+  
+  & li::marker {
+  @extend %list-style;
+  }
+}
+

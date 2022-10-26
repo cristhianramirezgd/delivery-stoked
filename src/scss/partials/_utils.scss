@@ -1,0 +1,35 @@
+.no-padding {
+  &.container-fluid {
+    padding-inline: 0;
+  }
+
+  &-left {
+    padding-left: 0;
+  }
+
+  &-right {
+    padding-right: 0;
+  }
+}
+
+.no-margin {
+  margin-inline: 0;
+}
+
+.padding {
+  @media (min-width: 768px) {
+    padding-inline: 34px;
+  }
+}
+
+.margin {
+  @media (min-width: 768px) {
+    padding-inline: 34px;
+  }
+}
+
+.margin-bottom {
+  @media (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+}

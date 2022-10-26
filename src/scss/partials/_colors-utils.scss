@@ -1,0 +1,23 @@
+$colors: (
+  'red-color': $red-color ,
+  'gray-color': $body-text-color ,
+  'yellow-color': $yellow-color,
+  'black-color': $black-color,
+  'white-color':$white-color,
+);
+
+.text {
+  @each $name, $color in $colors{
+    &-#{$name} {
+      color:$color!important;
+    }
+  }
+}
+
+.bg {
+  @each $name, $color in $colors{
+    &-#{$name} {
+      background:$color;
+    }
+  }
+}

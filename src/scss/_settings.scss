@@ -1,0 +1,45 @@
+@import './partials/utils';
+
+$global-font-size:16px;
+$global-font-family: arial, helvetica, sans-serif;
+$breakpoints:(
+  small:0,
+  // medium:760px, // disabled for pdf
+  )!default;
+$total: 100%;
+$global-width:$total;
+$breakpoint-small: map-get($breakpoints,small);
+// $breakpoint-medium:map-get($breakpoints,medium); // disabled for pdf
+$columns: 12;
+$headers:(
+  h1: 28px,
+  h2: 26px,
+  h3: 24px,
+  h4: 20px,
+  h5: 18px,
+  h6: 14px
+)!default;
+$global-line-height:1.2;
+$small: 80%;
+$gray-light:#f1f2f3;
+$gray-lite: #e1e3e5;
+$gray: #abb2b6;
+$gray-dark: #5c656a;
+$white: #ffffff;
+$black: #181a1b;
+$black-text: #48535b;
+
+// primary
+$primary-color: #068b8d;
+$primary-color-darken:darken($primary-color,10%)!default;
+$primary-color-lighten:lighten($primary-color,10%)!default;
+
+// states 
+$success-color:#229077;
+$warning-color:#ffc107;
+$error-color:  #dc3545;
+$info-color:   #056eac;
+
+// spaces
+$global-margin:$global-font-size;
+$global-padding:$global-font-size;

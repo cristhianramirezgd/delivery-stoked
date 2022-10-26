@@ -1,0 +1,33 @@
+$body-font-size: 18px;
+$text-title-size: 45px;
+
+%body-font {
+  p {
+    color: $body-text-color;
+    font-size: $body-font-size;
+  }
+}
+.red-color {
+  color: $red-color;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container.custom-styles {
+  padding-inline: 0!important;
+  @extend %body-font;
+}
+
+.container-fluid.custom-styles {
+  @extend %body-font;
+}
+
+.text-title-size {
+  font-size: $text-title-size;
+}
+
+.text-vertical-center {
+  margin-top: calc(50% - #{$text-title-size});
+}

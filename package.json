@@ -1,0 +1,24 @@
+{
+  "name": "delivery-stoked",
+  "version": "1.0.0",
+  "description": "delivery stoked bootstrap version",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-inject-in-html": "^1.2.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp test",
+    "dist": "gulp dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monokera-tech/pdf-template-generator-js.git"
+  },
+  "author": "cristhian ramirez",
+  "license": "ISC"
+}
