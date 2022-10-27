@@ -49,3 +49,30 @@
     margin-bottom: 30px;
   }
 }
+
+.padding-block {
+  padding-bottom: 16px!important;
+  padding-top: 16px!important;
+
+  @media (min-width: 768px) {
+    padding-bottom: 64px!important;
+    padding-top: 64px!important;
+  }
+}
+
+.padding-gutter {
+  padding-inline: 16px;
+
+  @media (min-width: 768px) {
+    padding-inline: 20%;
+  }
+}
+
+  .padding-sm-left {
+  padding-left: 10%;
+
+    @media (min-width: 768px) {
+      padding-left: 0;
+    }
+  }
+
