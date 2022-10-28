@@ -50,12 +50,14 @@
   }
 }
 
+.margin-bottom-none {
+  margin-bottom: 0!important;
+}
+
 .padding-block {
-  padding-bottom: 16px!important;
   padding-top: 16px!important;
 
   @media (min-width: 768px) {
-    padding-bottom: 64px!important;
     padding-top: 64px!important;
   }
 }
@@ -68,11 +70,45 @@
   }
 }
 
-  .padding-sm-left {
+.padding-sm-left {
   padding-left: 10%;
 
-    @media (min-width: 768px) {
-      padding-left: 0;
-    }
+  @media (min-width: 768px) {
+    padding-left: 0;
   }
+}
 
+.padding-sm-right {
+  padding-right: 10%;
+
+  @media (min-width: 768px) {
+    padding-right: 0;
+  }
+}
+
+.padding-sm-top {
+  @media (min-width: 768px) {
+    padding-top: 100px;
+  }
+}
+
+.padding-sx-top {
+  padding-top: 100px!important;
+}
+
+.margin-sx-top-none {
+  margin-top: 0;
+}
+
+.pages-wrapper > div,
+.ng-star-inserted {
+  padding-inline: 0!important;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.index-form {
+  max-width: 600px;
+}

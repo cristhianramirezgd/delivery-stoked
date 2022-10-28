@@ -30,3 +30,30 @@
   }
 }
 
+.btnView {
+  height: 100%;
+  background: $red-color;
+}
+
+.btnView .btn {
+height: 100%;
+color: $white;
+background: $red-color;
+margin-right: 0;
+}
+
+form {
+  width: 100%;
+  border: 1px solid $red-color;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 3rem;
+  height: 5rem;
+}
+
+/deep/app-dynamic-autocomplete {
+width: 100% !important;
+
+}
+
