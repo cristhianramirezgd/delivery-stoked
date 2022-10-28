@@ -1,4 +1,3 @@
-// @ts-nocheck
 const { task, src, dest, series, parallel, watch  } = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
