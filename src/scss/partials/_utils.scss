@@ -1,0 +1,114 @@
+ html {
+    scroll-behavior: smooth;
+  }
+
+.no-padding {
+  &.container-fluid {
+    padding-inline: 0;
+  }
+
+  &-left {
+    padding-left: 0;
+  }
+
+  &-right {
+    padding-right: 0;
+  }
+}
+
+.no-margin {
+  margin-inline: 0;
+}
+
+.padding {
+  @media (min-width: 768px) {
+    padding-inline: 34px;
+  }
+}
+
+.margin {
+  @media (min-width: 768px) {
+    padding-inline: 34px;
+  }
+}
+
+.margin-card {
+  @media (min-width: 768px) {
+    margin-inline: 34px;
+  }
+}
+
+.padding-card {
+  @media (min-width: 768px) {
+    padding: 34px;
+  }
+}
+
+.margin-bottom {
+  @media (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+
+.margin-bottom-none {
+  margin-bottom: 0!important;
+}
+
+.padding-block {
+  padding-top: 16px!important;
+
+  @media (min-width: 768px) {
+    padding-top: 64px!important;
+  }
+}
+
+.padding-gutter {
+  padding-inline: 16px;
+
+  @media (min-width: 768px) {
+    padding-inline: 20%;
+  }
+}
+
+.padding-sm-left {
+  padding-left: 10%;
+
+  @media (min-width: 768px) {
+    padding-left: 0;
+  }
+}
+
+.padding-sm-right {
+  padding-right: 10%;
+
+  @media (min-width: 768px) {
+    padding-right: 0;
+  }
+}
+
+.padding-sm-top {
+  @media (min-width: 768px) {
+    padding-top: 100px;
+  }
+}
+
+.padding-sx-top {
+  padding-top: 100px!important;
+}
+
+.margin-sx-top-none {
+  margin-top: 0;
+}
+
+.pages-wrapper > div,
+.ng-star-inserted {
+  padding-inline: 0!important;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.index-form {
+  max-width: 600px;
+}
